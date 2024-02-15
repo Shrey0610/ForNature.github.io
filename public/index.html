@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/Screenshot 2024-02-15 at 22.00.50.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- <link rel="icon" type="image/x-icon" href="/public/Olivia Wilson (3).png"> -->
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+        
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="/css/style.css">
+    <script src="/js/12.js"> </script>
+    
+    <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="/css/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/css/css/animate.css">
+    
+    <link rel="stylesheet" href="/css/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="/css/css/aos.css">
+
+    <link rel="stylesheet" href="/css/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="/css/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/css/css/jquery.timepicker.css">
+
+    
+
+    <link rel="stylesheet" href="/css/css/icomoon.css">
+    <link rel="stylesheet" href="/css/css/style.css">
+
+    
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+
+</script>
+   
+<script>
+  var btn52 = document.getElementsByClassName("ebtn");
+  var slide = document.getElementById("slide");
+
+  btn52[0].onclick = function() {
+    slide.style.transform = "translateX(0px)";
+
+    for(i=0;i<4;i++){
+      btn52[i].classList.remove("pactive");
+    }
+    this.classList.add("pactive");
+  }
+
+  btn52[1].onclick = function() {
+    slide.style.transform = "translateX(-800px)";
+    for(i=0;i<4;i++){
+      btn52[i].classList.remove("pactive");
+    }
+    this.classList.add("pactive");
+  }
+
+  btn52[2].onclick = function() {
+    slide.style.transform = "translateX(-1600px)";
+    for(i=0;i<4;i++){
+      btn52[i].classList.remove("pactive");
+    }
+    this.classList.add("pactive");
+  }
+
+  btn52[3].onclick = function() {
+    slide.style.transform = "translateX(-2400px)";
+    for(i=0;i<4;i++){
+      btn52[i].classList.remove("pactive");
+    }
+    this.classList.add("pactive");
+  }
+
+  window.addEventListener('scroll', () => {
+  const navbar = document.querySelector('.navbar');
+  if (window.scrollY > 50) {
+    navbar.classList.add('perfixed');
+  } else {
+    navbar.classList.remove('perfixed');
+  }
+});
+
+window.addEventListener('scroll', () => {
+  const anchors = document.querySelectorAll('.navbar ul li a');
+  
+  anchors.forEach(anchor => {
+    if (window.scrollY > 50) {
+      anchor.classList.add('perfixed');
+    } else {
+      anchor.classList.remove('perfixed');
+    }
+  });
+});
+
+
+
+</script>
+
+<script src="/js/js/jquery.min.js"></script>
+<script src="/js/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="/js/js/popper.min.js"></script>
+<script src="/js/js/bootstrap.min.js"></script>
+<script src="/js/js/jquery.easing.1.3.js"></script>
+<script src="/js/js/jquery.waypoints.min.js"></script>
+<script src="/js/js/jquery.stellar.min.js"></script>
+<script src="/js/js/owl.carousel.min.js"></script>
+<script src="/js/js/jquery.magnific-popup.min.js"></script>
+<script src="/js/js/aos.js"></script>
+<script src="/js/js/jquery.animateNumber.min.js"></script>
+<script src="/js/js/bootstrap-datepicker.js"></script>
+<script src="/js/js/jquery.timepicker.min.js"></script>
+<script src="/js/js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="/js/js/google-map.js"></script>
+<script src="/js/js/main.js"></script>
+
+
+  </body>
+</html>

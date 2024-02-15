@@ -1,0 +1,43 @@
+.containerr {
+    display: flex;
+    /* Align chatbot to the right */
+        height: auto;
+        max-height: auto;
+        width: auto;
+        margin-top: 50px;
+        margin-left: 800px;
+        margin-right: 100px;
+  }
+  
+  .otherss {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    padding: 20px;
+    width: auto; /* Adjust as needed *//* Limit maximum width for better readability */
+  }
+  
+  .response-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    max-height: auto;
+    overflow-y: auto;
+  }
+  
+  .response {
+    white-space: pre-wrap;
+  }
+  
+  form > label {
+    padding: 1px;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .containerr {
+      margin-left: 20px; /* Adjust left margin for better alignment */
+      margin-right: 20px; /* Adjust right margin for better alignment */
+    }
+  }
+  
+  

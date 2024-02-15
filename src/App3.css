@@ -1,0 +1,84 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user {
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .ai {
+    background-color: #f3e5f5;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .input-box {
+    display: flex;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
