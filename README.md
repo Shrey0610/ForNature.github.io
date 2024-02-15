@@ -1,20 +1,18 @@
-# ForNature.github.io
+<img width="1440" alt="Screenshot 2024-02-16 at 01 20 34" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/91f9dfc2-ad13-4c22-8727-aebd39c31143"># ForNature 🍃
  IT BEGINS WHEN YOU THINK AND COMPLETES WITH OUR SUPPORT.
-# Askpixie 🐦
-
-AskPixie: Unleashing Knowledge, Python-Powered. Harnessing Google's Gemini API for Smart Learning. Explore Topics, Upload Images, Dive into Learning Delight!
 
 ## Overview 🚀
 
-AskPixie is a comprehensive educational platform designed to facilitate seamless learning experiences for students. Built entirely using Python, it leverages Google's Gemini API to offer a wide array of features and functionalities. Users can delve into various subjects and topics, accessing reference links, detailed introductions, and practical examples. One of its standout features is the ability to upload images for precise topic-based answers, enhancing learning efficiency. AskPixie empowers students by providing a user-friendly interface, rich educational resources, and innovative tools for an enriched learning journey.
+Welcome to ForNature, your gateway to sustainable living through innovative AI solutions. At ForNature, we empower individuals to repurpose and recycle broken items, fostering a greener planet. Our AI-generated articles and blogs educate on recycling techniques and identify toxic materials, ensuring safe practices. With a commitment to environmental stewardship, our platform harnesses cutting-edge technology to transform waste into opportunity. Join us in our mission to reimagine consumption and preserve the Earth for future generations.
 
-### Domain Specific 💪 💪
 
-Explore Precision Learning with AskPixie! Choose Your Domain – Math or History or CyberSecurity or Whatever, Get Laser-Focused Answers. Crafted by Prompt Engineering, Empowered by Google's Gemini API. Dive Deep, Learn Smart!
+### Sustainable 💪 
+
+Explore sustainable ways of living with ForNature! Let us live everyday by saving a little for the future.
 
 ### Image Analysis and Text Output 🖼
 
-AskPixie's Image Analysis & Text Output, powered by Gemini Pro Vision, interprets uploaded images, extracts key text, and delivers precise academic information tailored to the chosen subject, enriching learning through visual exploration and focused textual explanations.
+ForNature
 
 ## Upcoming Features 🏃
 
@@ -34,8 +32,9 @@ AskPixie's Image Analysis & Text Output, powered by Gemini Pro Vision, interpret
 The Current Project uses Gemini-pro for text generation and Gemini-pro-vision for Image Analysis using the respected APIs.
 
 ## UI Design
-![UI image](./assets/UI1.png)
-![UI image](./assets/UI2.png)
+![UI image](![Uploading Screenshot 2024-02-16 at 01.20.34.png…]())
+![UI image](<img width="1440" alt="Screenshot 2024-02-16 at 01 20 38" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/6819ec43-5633-4e41-8236-83f91d14cddf">)
+
 
 ## Current Progress
 | YouTube Video |
