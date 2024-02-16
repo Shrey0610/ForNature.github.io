@@ -14,10 +14,10 @@ Welcome to ForNature, your gateway to sustainable living through innovative AI s
 - FLASK
 - JSX
 
-# Sustainable 💪 
+# Quick Insights 💪 
 
 Explore sustainable ways of living with ForNature! Let us live everyday by saving a little for the future.
-
+Let's explore the different services- 
 
 
 
@@ -39,14 +39,11 @@ ForNature
 3. The Generative AI will Give you Introduction, Examples,codes(if needed) and Reference Links of topic.
 4. If You want to analyze any Image related to topic, upload it using selectfile(button) and get an Analysis or Answer of the Image.
 
-### Quick Insights 👊
 
-The Current Project uses Gemini-pro for text generation and Gemini-pro-vision for Image Analysis using the respected APIs.
 
 ## UI Design
-![UI image](<img width="1440" alt="Screenshot 2024-02-16 at 01 20 34" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/2d092cfd-9750-4f8e-aaef-0d7eb68fa92b">
-)
-![UI image](<img width="1440" alt="Screenshot 2024-02-16 at 01 20 38" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/6819ec43-5633-4e41-8236-83f91d14cddf">)
+![UI image]()
+![UI image]()
 
 
 ## Current Progress
@@ -59,33 +56,55 @@ The Current Project uses Gemini-pro for text generation and Gemini-pro-vision fo
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Vr978/Askpixie.git
+git clone https://github.com/Shrey0610/ForNature.github.io
 ```
 
-2. Make virtual environment and activate it
+2. ### For React-
 ```bash
-python -m venv venv
-source venv/bin/activate
+npm i react-app
 ```
 
-3. Navigate to the project directory
+3. ### For Express-
 ```bash
 cd imageai
 ``` 
 
-4. Install the dependencies
+
+4. ### For Flask-
+```
+```
+
+
+5. ### Install the dependencies
 ```bash
 pip install -r {path to requirements.txt}
 reflex init
 ```
-5. Add Your Gemini-Api Key
+
+
+6. ### Add Your OpenAI-Api Key
 in terminal using
 ```bash
-export API_KEY_G='YOUR_API_KEY'
+export YOUR_API_KEY='YOUR_API_KEY'
 ```
 
-7. Run the app
+7. ### Run the React-app
 ```bash
-reflex run
+cd ForNature
+PORT=9004 npm start
 ```
-Note : Must have Gemini API key to run the app, you can create [here](https://ai.google.dev/).
+
+
+7. ### Run the Express-app (server)
+```bash
+cd server
+nodemon server.js
+```
+
+8. ### Run the Flask-app (server2)
+```bash
+cd server2
+
+```
+
+Note : Must have an OpenAI API key to run the app, you can create [here](https://openai.com).
