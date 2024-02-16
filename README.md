@@ -7,7 +7,7 @@
 https://github.com/Shrey0610/ForNature.github.io/assets/119574537/be59b747-07f2-47e8-a6a0-75e583a36d3d
 
 
-Welcome to ForNature, your gateway to sustainable living through innovative AI solutions. At ForNature, we empower individuals to repurpose and recycle broken items, fostering a greener planet. Our AI-generated articles' and blogs' links to educate on recycling techniques and identify toxic materials, ensuring safe practices. With a commitment to environmental stewardship, our platform harnesses cutting-edge technology to transform waste into opportunity. Join us in our mission to reimagine consumption and preserve the Earth for future generations.
+Welcome to **ForNature**, your gateway to **sustainable** living through innovative AI solutions. At ForNature, we empower individuals to repurpose and recycle broken items, fostering a greener planet. Here you'll get AI generated ways on how to recycle your items and also you'll get to learn about recycling techniques and identify toxic materials, ensuring safe practices. With a commitment to environmental stewardship, our platform harnesses cutting-edge technology to transform waste into opportunity. Join us in our mission to reimagine consumption and **preserve the Earth** for future generations.
 
 ## Dependencies 💡
 - REACT.JS
