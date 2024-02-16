@@ -50,7 +50,7 @@ Let's explore the different features-
 | YouTube Video |
 |----------------|
 |<a href="https://youtu.be/TzULgZDepis"><img width="1030" alt="YOUTUBE_THUMBNAIL" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/f1745dfb-6f52-4199-af97-d28bbf0bee39">
-"/></a>
+Click on the image</a>
 
 
 ## Getting Started- (SETUP)
@@ -60,9 +60,6 @@ Let's explore the different features-
 git clone https://github.com/Shrey0610/ForNature.github.io
 ```
 
-```bash
-pip install -r requirements.txt
-```
 
 2. ### For React- (src > App.js)
 ```bash
@@ -85,6 +82,10 @@ npm install --save cors
 3. ### For Express- (server)
 ```bash
 cd server
+```
+
+```bash
+pip install -r requirements.txt
 ```
 
 ```bash
