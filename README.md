@@ -60,9 +60,6 @@ Let's explore the different features-
 git clone https://github.com/Shrey0610/ForNature.github.io
 ```
 
-```bash
-pip install -r requirements.txt
-```
 
 2. ### For React- (src > App.js)
 ```bash
@@ -85,6 +82,10 @@ npm install --save cors
 3. ### For Express- (server)
 ```bash
 cd server
+```
+
+```bash
+pip install -r requirements.txt
 ```
 
 ```bash
