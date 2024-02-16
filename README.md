@@ -1,6 +1,6 @@
 # ForNature 🍃
  IT BEGINS WHEN YOU THINK AND COMPLETES WITH OUR SUPPORT.
-(find how to download this and YouTube video below) 
+(find how to download this, YouTube video, and **notes** below) 
 
 ## Overview 🚀
 
@@ -157,3 +157,5 @@ python -u {path to server2} run
 **Note** : Must have an OpenAI API key to run the app, you can create from [here](https://openai.com).
 
 **You must never expose your API key**
+
+**This project uses tailwind which you may need to setup**
