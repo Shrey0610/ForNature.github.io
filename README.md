@@ -1,5 +1,7 @@
-<img width="1440" alt="Screenshot 2024-02-16 at 01 20 34" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/91f9dfc2-ad13-4c22-8727-aebd39c31143"># ForNature 🍃
+# ForNature 🍃
  IT BEGINS WHEN YOU THINK AND COMPLETES WITH OUR SUPPORT.
+
+
 
 ## Overview 🚀
 
@@ -32,7 +34,8 @@ ForNature
 The Current Project uses Gemini-pro for text generation and Gemini-pro-vision for Image Analysis using the respected APIs.
 
 ## UI Design
-![UI image](![Uploading Screenshot 2024-02-16 at 01.20.34.png…]())
+![UI image](<img width="1440" alt="Screenshot 2024-02-16 at 01 20 34" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/2d092cfd-9750-4f8e-aaef-0d7eb68fa92b">
+)
 ![UI image](<img width="1440" alt="Screenshot 2024-02-16 at 01 20 38" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/6819ec43-5633-4e41-8236-83f91d14cddf">)
 
 
