@@ -7,10 +7,19 @@
 
 Welcome to ForNature, your gateway to sustainable living through innovative AI solutions. At ForNature, we empower individuals to repurpose and recycle broken items, fostering a greener planet. Our AI-generated articles and blogs educate on recycling techniques and identify toxic materials, ensuring safe practices. With a commitment to environmental stewardship, our platform harnesses cutting-edge technology to transform waste into opportunity. Join us in our mission to reimagine consumption and preserve the Earth for future generations.
 
+## Dependencies 💡
+- REACT.JS
+- EXPRESS.JS
+- FLASK
+- JSX
 
-### Sustainable 💪 
+# Sustainable 💪 
 
 Explore sustainable ways of living with ForNature! Let us live everyday by saving a little for the future.
+
+
+
+
 
 ### Image Analysis and Text Output 🖼
 
