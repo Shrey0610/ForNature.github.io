@@ -2,8 +2,9 @@
  IT BEGINS WHEN YOU THINK AND COMPLETES WITH OUR SUPPORT.
 
 
-
 ## Overview 🚀
+https://github.com/Shrey0610/ForNature.github.io/assets/119574537/c7041a5d-c128-453f-8ebc-9d0e6e342c4b
+
 
 Welcome to ForNature, your gateway to sustainable living through innovative AI solutions. At ForNature, we empower individuals to repurpose and recycle broken items, fostering a greener planet. Our AI-generated articles and blogs educate on recycling techniques and identify toxic materials, ensuring safe practices. With a commitment to environmental stewardship, our platform harnesses cutting-edge technology to transform waste into opportunity. Join us in our mission to reimagine consumption and preserve the Earth for future generations.
 
