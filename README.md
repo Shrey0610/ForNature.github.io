@@ -49,7 +49,7 @@ Let's explore the different features-
 ## Current Progress
 | YouTube Video |
 |----------------|
-|<a href="https://youtu.be/TzULgZDepis"><img src="<img width="1030" alt="YOUTUBE_THUMBNAIL" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/f1745dfb-6f52-4199-af97-d28bbf0bee39">
+|<a href="https://youtu.be/TzULgZDepis"><img width="1030" alt="YOUTUBE_THUMBNAIL" src="https://github.com/Shrey0610/ForNature.github.io/assets/119574537/f1745dfb-6f52-4199-af97-d28bbf0bee39">
 "/></a>
 
 
