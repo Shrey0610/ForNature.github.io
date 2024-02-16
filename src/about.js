@@ -11,7 +11,7 @@ const About = () => {
             <p>~It begins when you think and completes with our support.</p></h2>
           <p>
             {" "}
-            ForNature stands as a leading force in innovative educational solutions. We believe technology should simplify learning, enhance security, and create a comfortable environment for students. Our mission is to deliver cutting-edge educational technology, enriching daily lives. Our team of experts is dedicated to innovation and excellence, refining skills over years of experience. Our goal is to craft a seamless and integrated educational experience, embracing the latest advancements. Join us on the journey of transforming education with ForNature.
+            Welcome to ForNature, your gateway to sustainable living through innovative AI solutions. At ForNature, we empower individuals to repurpose and recycle broken items, fostering a greener planet. Our AI-generated articles and blogs educate on recycling techniques and identify toxic materials, ensuring safe practices. With a commitment to environmental stewardship, our platform harnesses cutting-edge technology to transform waste into opportunity. Join us in our mission to reimagine consumption and preserve the Earth for future generations.
           </p>
           <br />
           <h1 style={{fontSize: '30px'}}>Future Scopes-</h1>
@@ -19,19 +19,20 @@ const About = () => {
         <div className="row content">
           <div className="col-lg-6">
             <p>
-            At ForNature, we prioritize the utmost security and privacy for your educational journey. Employing cutting-edge technologies and protocols, we ensure the safeguarding of your data and devices. Our dedication to excellence has earned us accolades and awards from esteemed industry experts and organizations. This commitment, coupled with a focus on customer satisfaction, distinguishes us in the educational technology landscape.
+            1. <b>Using live camera</b> for detecting objects in the real world directly from our phones. This will help naive users to even use the website or even elderly can use it.
+            One way in doing so is by using 'Pixellib' which helps in real-time object detection.
             </p>
             <br />
           </div>
           <div className="col-lg-6 pt-4 pt-lg-0">
             <p>
-            Explore the possibilities of enhancing your educational experience with ForNature. Reach out to us today to discover more about our innovative products and services. Learn how ForNature can revolutionize your educational journey by providing a more connected and automated learning environment. Let's shape the future of education together!
+            2. <b>Government</b> can largly help in promoting these kind of websites where people can easily get information they need for saving the nature. Government has the power to reach to a larger population of any country.
             </p>
           </div>
         </div>
         <div className="col-lg-6 pt-4 pt-lg-0">
             <p>
-            Explore the possibilities of enhancing your educational experience with ForNature. Reach out to us today to discover more about our innovative products and services. Learn how ForNature can revolutionize your educational journey by providing a more connected and automated learning environment. Let's shape the future of education together!
+           3. <b>Cloud-based</b> services like active NGOs or social groups maintaining themselves on it, can be a way to reach to people. For example if someone wants to <b>donate</b> anything or collect something for cheap which was previously donated, then they can use applications like this and connect with those on cloud.
             </p>
           </div>
       </div>

@@ -299,7 +299,7 @@ class App2 extends React.Component{
         <div className="col-md-6 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/colleagues-studying-university-library_23-2148844723.jpg"
+              src="/cleaning-mobile-smartphone_118813-3620.jpg"
               className="img-fluid"
               alt="Colorlib Template"
             />
@@ -323,7 +323,7 @@ class App2 extends React.Component{
         <div className="col-md-6 col-lg-3 ftco-animate">
           <div className="project">
             <img
-              src="/students-holding-notebooks-talking_23-2147657126.jpg"
+              src="/recycle-eco-environment-icon-concept_53876-125110.jpg"
               className="img-fluid"
               alt="Colorlib Template"
             />

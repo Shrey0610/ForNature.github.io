@@ -148,9 +148,9 @@ function Footer(){
 				</div> */}
         </div>
       </div>
-      <div className="bg-gray-100"  style= {{backgroundColor: '#f9eded97'}}>
+      <div className="bg-gray-100"  style= {{backgroundColor: '#f9eded97', paddingRight: '200px'}}>
         <div className="container mx-0 py-4 px-0 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-gray-500 text-sm text-center sm:text-left">
+          <p className="text-gray-500 text-sm text-center sm:text-left"  style= {{backgroundColor: '#f9eded97', paddingLeft: '200px'}}>
             Copyright © 2023 ForNature. All rights reserved
             {/* <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a> */}
           </p>

@@ -2,12 +2,23 @@ import React, { useState } from 'react';
 import './App.css';
 import './otherss.css';
 
+
+const Spinner = () => (
+  <div className="spinner-border text-primary" role="status">
+    <span className="visually-hidden">Loading...</span>
+  </div>
+);
+
+
+
 function Otherss() {
   const [prompt, setPrompt] = useState('');
   const [output, setOutput] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     try {
       const response = await fetch('http://localhost:9005/chats', {
         method: 'POST',
@@ -21,6 +32,7 @@ function Otherss() {
     } catch (error) {
       console.error(error);
     }
+    setIsLoading(false);
   };
 
 
@@ -41,7 +53,7 @@ function Otherss() {
         </form>
         <center>
         <div className="response-box">
-  
+        {isLoading && <Spinner />}
           {output && <div className="response">
           {output}
           
@@ -49,14 +61,6 @@ function Otherss() {
         </div></center>
         </center>
       </div>
-      {/* <img
-        src="bootstrap-themes.png"
-        className="d-block mx-lg-auto img-fluid"
-        alt="Bootstrap Themes"
-        width={700}
-        height={500}
-        loading="lazy"
-      /> */}
     </div>
     <div className="col-lg-6">
       <h1 className="display-5 fw-bold lh-1 mb-3">
