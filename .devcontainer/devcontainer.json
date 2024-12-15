@@ -1,14 +1,38 @@
+// {
+// 	"name": "ForNature Development Container",
+// 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+// 	"forwardPorts": [
+// 	  3000,
+// 	  5000
+// 	],
+// 	"customizations": {
+// 	  "vscode": {
+// 		"settings": {
+// 		  "terminal.integrated.defaultProfile.linux": "bash",
+// 		  "editor.formatOnSave": true
+// 		},
+// 		"extensions": [
+// 		  "ms-python.python",
+// 		  "dbaeumer.vscode-eslint",
+// 		  "esbenp.prettier-vscode",
+// 		  "ms-azuretools.vscode-docker"
+// 		]
+// 	  }
+// 	},
+// 	"postCreateCommand": "npm install && cd server && npm install && pip install -r server/requirements.txt"
+//   }
+
 // For details, see https://aka.ms/devcontainer.json
 {
-	"name": "Node.js and Python (Flask) Dev Container",
+	"name": "Node.js and Flask Dev Container",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
 	"features": {
 	  "ghcr.io/devcontainers/features/python:1": {
 		"version": "3.10"
 	  }
 	},
-	"forwardPorts": [3000, 5000], 
-	"postCreateCommand": "npm install",
+	"forwardPorts": [3000, 9005, 9006],
+	"postCreateCommand": "npm install && pip install -r requirements.txt",
 	"customizations": {
 	  "vscode": {
 		"settings": {
@@ -17,7 +41,8 @@
 		"extensions": [
 		  "ms-python.python",
 		  "dbaeumer.vscode-eslint",
-		  "esbenp.prettier-vscode"
+		  "esbenp.prettier-vscode",
+		  "ms-azuretools.vscode-docker"
 		]
 	  }
 	},
@@ -30,7 +55,8 @@
 	"workspaceFolder": "/workspace",
 	"portsAttributes": {
 	  "3000": { "label": "React Frontend (Port 3000)" },
-	  "5000": { "label": "Backend Server (Port 5000)" }
+	  "9005": { "label": "Flask Backend (Port 9005)" },
+	  "9006": { "label": "Flask Backend (Port 9006)" }
 	}
   }
   
