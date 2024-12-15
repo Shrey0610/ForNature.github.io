@@ -1,0 +1,23 @@
+{
+    "name": "ForNature",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+    "forwardPorts": [
+      9004,
+      3000
+    ],
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "javascript.suggest.autoImports": true,
+          "javascript.validate.enable": true,
+          "editor.formatOnSave": true
+        },
+        "extensions": [
+          "esbenp.prettier-vscode",
+          "dbaeumer.vscode-eslint",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install && pip install -r server/requirements.txt"
+  }
