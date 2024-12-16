@@ -55,8 +55,8 @@
 	"workspaceFolder": "/workspace",
 	"portsAttributes": {
 	  "3000": { "label": "React Frontend (Port 3000)" },
-	  "9005": { "label": "Flask Backend (Port 9005)" },
-	  "9006": { "label": "Flask Backend (Port 9006)" }
+	  "9005": { "label": "Flask Backend1 (Port 9005)" },
+	  "9006": { "label": "Flask Backend2 (Port 9006)" }
 	}
   }
   
