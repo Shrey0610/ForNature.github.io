@@ -64,20 +64,62 @@
 // 	}
 //   }
   
+// {
+// 	"name": "React, Express, and Flask Dev Container",
+// 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+// 	"features": {
+// 		"ghcr.io/devcontainers/features/python:1": {
+// 			"version": "3.10"
+// 		}
+// 	},
+// 	"forwardPorts": [3000, 9004, 9005, 9006],
+// 	"postCreateCommand": "npm install && pip install -r server/requirements.txt",
+// 	"customizations": {
+// 		"vscode": {
+// 			"settings": {
+// 				"terminal.integrated.defaultProfile.linux": "bash"
+// 			},
+// 			"extensions": [
+// 				"ms-python.python",
+// 				"dbaeumer.vscode-eslint",
+// 				"esbenp.prettier-vscode",
+// 				"ms-azuretools.vscode-docker",
+// 				"formulahendry.auto-rename-tag",
+// 				"dsznajder.es7-react-js-snippets"
+// 			]
+// 		}
+// 	},
+// 	"remoteUser": "vscode",
+// 	"containerEnv": {
+// 		"PYTHONUNBUFFERED": "1",
+// 		"YOUR_API_KEY": "REPLACE_WITH_YOUR_OPENAI_API_KEY"
+// 	},
+// 	"runArgs": ["--init"],
+// 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+// 	"workspaceFolder": "/workspace",
+// 	"portsAttributes": {
+// 		"3000": { "label": "React Frontend (Port 3000)" },
+// 		"9004": { "label": "React Frontend Alternate (Port 9004)" },
+// 		"9005": { "label": "Flask Backend1 (Port 9005)" },
+// 		"9006": { "label": "Flask Backend2 (Port 9006)" }
+// 	}
+// }
+
 {
-	"name": "React, Express, and Flask Dev Container",
+	"name": "ForNature Development Container",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
 	"features": {
 		"ghcr.io/devcontainers/features/python:1": {
 			"version": "3.10"
 		}
 	},
-	"forwardPorts": [3000, 9004, 9005, 9006],
-	"postCreateCommand": "npm install && pip install -r server/requirements.txt",
+	"forwardPorts": [3000, 9005, 9006],
+	"postCreateCommand": "npm install && cd server && pip install -r requirements.txt && npm install",
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"terminal.integrated.defaultProfile.linux": "bash"
+				"terminal.integrated.defaultProfile.linux": "bash",
+				"editor.formatOnSave": true
 			},
 			"extensions": [
 				"ms-python.python",
@@ -99,8 +141,12 @@
 	"workspaceFolder": "/workspace",
 	"portsAttributes": {
 		"3000": { "label": "React Frontend (Port 3000)" },
-		"9004": { "label": "React Frontend Alternate (Port 9004)" },
 		"9005": { "label": "Flask Backend1 (Port 9005)" },
 		"9006": { "label": "Flask Backend2 (Port 9006)" }
+	},
+	"onCreateCommand": {
+		"3000": "npm run start",
+		"9005": "cd server && npm run start",
+		"9006": "cd server && python server2.py"
 	}
 }
